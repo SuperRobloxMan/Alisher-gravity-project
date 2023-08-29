@@ -1,0 +1,111 @@
+
+.title   {
+    color: white;
+    z-index: 5;
+    font-size: 65px;
+    position: absolute;
+    top: 75px;
+    left: 300px;
+}
+.background-image {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.behind-everything {
+    background-color: black;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.massInput {
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    font-size: 35px;
+    color: white;
+}
+.input-1 {
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    top: 253px;
+    left: 680px;
+    font-size: 20px;
+}
+.planet-selection {
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 250px;
+    left: 950px;
+    font-size: 35px;
+    color: white;
+}
+.planet {
+    height: 35px;
+    width: 150px;
+    position: absolute;
+    top: 253px;
+    left: 1175px;
+    font-size: 20px;
+}
+#calculate-button {
+    height: 75px;
+    width: 400px;
+    position: absolute;
+    top: 310px;
+    left: 750px;
+    font-size: 45px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+#result {
+    height: 100px;
+    width: 700px;
+    position: absolute;
+    top: 275px;
+    left: 20px;
+    font-size: 45px;
+    color: white;
+}
+.black-background {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: -2
+}
+.background-planets {
+    height: 650px;
+    width: 1100px;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    background-color: rgb(139, 139, 139);
+    opacity: 0.3;
+}
+.image-container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 450px;
+    left: 375px;
+    font-size: 50px;
+    z-index: 2;
+}
+#planetImage {
+    width: 550px;
+    height: 550px;
+}
+
+
+
+

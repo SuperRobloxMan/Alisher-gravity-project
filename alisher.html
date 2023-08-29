@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="alisher.css">
+</head>
+<body>
+    <img class="background-image" src="https://thumbs.gfycat.com/EagerGentleAxolotl-max-1mb.gif">
+    <div class="body">
+        <div class="background-planets"></div>
+        <div class=black-background></div>
+        <div class="behind-everything"></div>
+        <h1 class="title">Calculate weight of an object on a planet</h1>
+        <div class="inputContainer">
+            <label class="massInput">Mass in kg</label>
+            <input class="input-1" type="number" id="massInput" placeholder="mass in kg">
+        </div>
+        <div class="inputContainer">
+            <label class="planet-selection" for="planetSelection">Select a planet</label>
+            <select class="planet" id="planetSelection">
+                <option value="earth">Earth</option>
+                <option value="mercury">Mercury</option>
+                <option value="venus">Venus</option>
+                <option value="mars">Mars</option>
+                <option value="jupiter">Jupiter</option>
+                <option value="saturn">Saturn</option>
+                <option value="uranus">Uranus</option>
+                <option value="neptune">Neptune</option>
+            </select>
+        </div>
+        <button id="calculate-button">Calcualte value</button>
+        <p id="result"></p>
+    </div>
+    <div class="image-container">
+        <img id="planetImage" src="https://www.solarsystemscope.com/spacepedia/images/handbook/renders/earth.png" >
+    </div>
+    <script src="alisher.js"></script>
+</body>
+</html>
+
